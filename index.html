@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno Chagas">
+    <meta name="description" content="Portal Superar">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/757a99c2d4.js" crossorigin="anonymous"></script>
+    <title>Portal Klabin Superar Ortigueira</title>
+</head>
+
+<body>
+    <header>
+        <section id="title">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h1>Portal Klabin Superar - Ortigueira</h1>
+                </div>
+                <div class="col-lg-2">
+                    <img src="./images/logo.png" alt="">
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2b8c3c; margin-left: 0">
+                <div class="container-fluid">
+
+                    <!--     <img class="navbar-brand" src="./images/logo_superar-branco.png" alt=""> -->
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="togglenavbar" aria-controls="togglenavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="togglenavbar">
+
+                        <ul class="navbar-nav ">
+
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownSystems" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sistemas
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="http://10.22.0.74/gp4Master/index.php" target="_blank">Telefonia</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.service-now.com/sp" target="_blank">Service Now</a></li>
+
+                                    <li><a class="dropdown-item" href="https://codex.ambito.com.br/" target="_blank">Âmbito</a></li>
+
+                                    <li><a class="dropdown-item" href="http://www.jobcoach.com.br/empresas/JCSystem/Dashboard.aspx" target="_blank">Job Coach</a></li>
+
+                                    <li><a class="dropdown-item" href="http://masrv055/fusion/portal" target="_blank">Neomind Fusion</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.softexpert.com/softexpert/" target="_blank">SoftExpert</a></li>
+
+                                    <li><a class="dropdown-item" href="https://app2.clarizen.com/Clarizen/Home" target="_blank">Clarizen</a></li>
+
+                                    <li><a class="dropdown-item" href="https://ortpi.klabin.com.br/depr/kpi/?req=indicadores" target="_blank">PI - Ind. Processo (KPI's)</a></li>
+
+                                    <li><a class="dropdown-item" href="https://ortpi.klabin.com.br/boletim.web/#/main/BoletimCRULF" target="_blank">PI - Boletim das Áreas</a></li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownSystems" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    XMII
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_CIPUI/index.html" target="_blank">CVP</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_OEEUI/index.html" target="_blank">OEE</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_PKRCONUI/index.html" target="_blank">PUR</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_QGVUI/index.html" target="_blank">QGV</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_SCFUI/index.html" target="_blank">SCF</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/Klabin_SGGAUI/index.html" target="_blank">SGGA</a></li>
+
+                                    <li><a class="dropdown-item" href="http://ortsrv058-vm:50000/XMII/CM/SRP_CELULOSE-UI/index.html" target="_blank">SRP</a></li>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownSystems" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portais
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="https://apps.powerapps.com/play/84327d08-d4d2-449f-975f-5daa5fe80dff?tenantId=a2fda012-a924-4452-b67d-be71576f6506">Portal PKS (Power BI)</a></li>
+
+                                    <li><a class="dropdown-item" href="http://portal.klabindc.net:8200/irj/portal/anonymous">Corporativo</a></li>
+
+                                    <li><a class="dropdown-item" href="http://www.escoladenegociosklabin.com.br/">Escola de negócios</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/FacilitiesOrtigueira">Facilities</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/QualidadePuma">Qualidade</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/PumaSeguranca/">Segurança</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/sig/">SIG</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/controladoria/">Controladoria</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/expedicao/">Expedição</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/almoxarifado">Almoxarifado</a></li>
+
+                                    <li><a class="dropdown-item" href="https://app.powerbi.com/reportEmbed?reportId=ba6770f1-3200-47f3-a5be-ea4bf3c5cae8&autoAuth=true&ctid=a2fda012-a924-4452-b67d-be71576f6506&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D">OEE-SCF (Reunião das 11h)</a></li>
+
+
+                                </ul>
+
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownSystems" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Links
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/apresentacoes/Forms/AllItems.aspx">Apresentações</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/peqmel/Forms/AllItems.aspx">Pequenas Melhorias</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/gm/Forms/AllItems.aspx">Grupos de Melhoria</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/Almoxarifado/FISPQs/Forms/AllItems.aspx">FISPQs e Fichas Técnicas</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/Tutoriais/Forms/AllItems.aspx">Tutoriais</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/Treinamentos/Forms/AllItems.aspx">Treinamentos</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/comites/">Comitês</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/PumaSeguranca/Lists/RelatoSSO/AllItems.aspx">Relato de Segurança</a></li>
+
+                                    <li><a class="dropdown-item" href="https://klabin.sharepoint.com/sites/mco/comites/Lists/demandascsi/AllItems.aspx">Demandas CSI</a></li>
+
+                                    <li><a class="dropdown-item" href="https://gerenciadefacilities.com.br/">Portal Facilities</a></li>
+
+                                    <li><a style="height: 50px; word-wrap: break-word;" class="dropdown-item" href="https://klabin.sharepoint.com/sites/Almoxarifado/Lists/RNC/AllItems.aspx">RNC - Registro de Não <br> Conformidades</a></li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section id="carousel">
+
+
+            <div id="carouselKlabin" class="carousel-dark carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <a href="https://klabin.sharepoint.com/sites/mco/Documentos%20Compartilhados/Politica%20de%20Sustentabilidade.pdf" target="_blank">
+                            <img src="./images/b1.png" class="d-block w-100" alt="Política de Sustentabilidade">
+                            <h3>Política de Sustentabilidade</h3>
+                            <p>Acreditamos que sustentabilidade é criação contínua de valor, que privilegia o equilíbrio entre as esferas econômica, social e ambiental.</p>
+                        </a>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <a href="https://klabin.sharepoint.com/sites/controladoria/CAR/Forms/AllItems.aspx" target="_blank">
+                            <img src="./images/b2.png" class="d-block w-100" alt="Comitê de Análise de Resultados">
+                            <h3>Comitê de Análise de Resultados</h3>
+                            <p>Comitê mensal onde são discutidos os resultados da unidade PUMA e apresentado um plano de ação com tratativas aos desvios encontrados.</p>
+                        </a>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <a href="https://klabin.sharepoint.com/sites/mco/Documentos%20Compartilhados/Eficiencia%20Operacional.pdf">
+                            <img src="./images/b3.png" class="d-block w-100" alt="Eficiência Operacional">
+                            <h3> Eficiência Operacional </h3>
+                            <p>Comitê mensal onde são discutidos os resultados da unidade puma e apresentado um plano de ação com tratativas aos desvios encontrados.</p>
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://klabin.sharepoint.com/sites/pksort/pilares/Forms/AllItems.aspx" target="_blank">
+                            <img src="./images/pilares1.png" class="d-block w-100" alt="Pilares">
+                            <h3> Pilares Klabin Ortigueira </h3>
+                            <p>Acesse o material dos pilares do <span id="superar">SUPERAR</span> da unidade PUMA</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselKlabin" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselKlabin" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section id="card-template">
+
+            <div class="row">
+                <div class="klabin-column col-lg-6">
+
+                    <a href="https://klabin.brightidea.com/PlanteSuaIdeia/submit" target="_blank">
+                        <div class="card">
+                            <img src="./images/plantesuaideia.png" class="card-img-top" alt="Plante sua idéia">
+                            <div class="card-body">
+                                <h5 class="card-title">Plante sua idéia</h5>
+                                <p class="card-text">No Plante Sua Ideia, os colaboradores da Klabin têm a oportunidade de participar do processo de melhoria contínua da empresa.
+                                    <br> Em busca de resultados reais de inovação, o programa interno funciona como um canal aberto de ideias, alinhadas as necessidades estratégicas de cada unidade operacional.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="klabin-column col-lg-6">
+
+                    <a href="https://klabin.softexpert.com/softexpert/" target="_blank">
+                        <div class="card">
+                            <img src="./images/se.jpg" class="card-img-top" alt="SoftExpert">
+                            <div class="card-body" id="softExpert">
+                                <h5 class="card-title">SoftExpert Documentação</h5>
+                                <p class="card-text">Acesse o sistema SoftExpert para obter informações sobre suas tarefas, workflows e documentação da sua área.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cta1">
+
+            <div class="row">
+
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="">
+                        <i class="icons fas fa-tachometer-alt fa-6x"></i>
+                        <h3>OEE</h3>
+                        <p>Acompanhe a Eficiência Global dos equipamentos (OEE) da sua área</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="">
+                        <i class="fas fa-tv fa-6x"></i>
+                        <h3>PI Vision</h3>
+                        <p>Verifique os painéis do PI Vision disponíveis </p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="">
+                        <i class="fas fa-table fa-6x"></i>
+                        <h3>PI Boletim</h3>
+                        <p>Analise as variáveis dos processos através desse boletim</p>
+                    </a>
+                </div>
+
+            </div>
+
+            </div>
+
+            <!-- local onde ficará os 4 icones com descrições -->
+        </section>
+
+        <section id="cta2">
+            <div class="row">
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="https://klabin.sharepoint.com/sites/fcelulose/mco/pamacro/">
+                        <i class="far fa-sticky-note fa-6x"></i>
+                        <h3>Planos de Ação</h3>
+                        <p>Navegue através dos planos de ação disponíveis</p>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="https://klabin.sharepoint.com/sites/PumaSeguranca/cipa/">
+                        <i class="fas fa-hard-hat fa-6x"></i>
+                        <h3>CIPA</h3>
+                        <p>Acesse os arquivos disponíveis da CIPA</p>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-4 klaicons">
+                    <a class="klaicons-hover" target="_blank" href="https://klabin.sharepoint.com/sites/mco/Lists/Principais%20Eventos%20da%20Unidade/calendar.aspx">
+                        <i class="far fa-calendar-alt fa-6x"></i>
+                        <h3>Agenda de eventos</h3>
+                        <p>Acompanhe as principais atividades do site</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="row">
+            <div class="col-lg-6 socials">
+                <h4> Conheça nossas redes sociais</h4>
+                <a href="https://www.linkedin.com/company/klabin"><i class="fab fa-linkedin linkedicon fa-2x"></i></a>
+                <a href="https://www.facebook.com/Klabin.SA/"><i class="fab fa-facebook-f footericons fa-2x fbicon"></i></a>
+                <a href="https://www.instagram.com/klabin.sa/"><i class="fab fa-instagram footericons fa-2x insticon"></i></a>
+                <a href="https://www.youtube.com/channel/UCqVPDan2oZDd1w2QZMLJAGg"><i class="fab fa-youtube fa-2x ytbicon"></i></a>
+            </div>
+
+            <div class="col-lg-6">
+                <img id="superarfooter" src="./images/logo_superar-branco.png" alt="">
+                <img id="klabinfooter" src="./images/logo.png" alt="">
+            </div>
+        </div>
+
+        <!--   <div class="secondrow">
+            <div class="col-lg-4">
+                <ul>
+                    <h4>Conhecimento</h4>
+                    <li>Plante sua Ideia</li>
+                    <li>Portal ENK</li>
+                    <li>Biblioteca de documentos</li>
+                </ul>
+            </div> -->
+
+
+        <!-- 4 colunas, sendo uma delas com a logo, seguidas por um paragrafo de 
+      conheça nossas redes
+    para então ir para o rodapé com ouvidoria,etc.-->
+        <div id="credits">
+            <p> @Melhoria Continua - 2021
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
